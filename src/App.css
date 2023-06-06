@@ -11,6 +11,7 @@
 
 .App-header {
   background-color: #183064;
+  background-image: url("TextureNavyBG.jpg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -34,8 +35,29 @@
 
 }
 
+.choice-buttons
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+button
+{
+  margin-right: 2vmin;
+  margin-left: 2vmin;
+  border-radius: 6px;
+  cursor: pointer;
+  padding:6px;
+  font-weight: bolder;
+  background: rgb(210,209,209);
+  background: linear-gradient(312deg, rgba(210,209,209,1) 0%, rgba(205,205,205,1) 20%, rgba(253,253,255,1) 44%, rgba(197,197,200,1) 59%, rgba(213,211,211,1) 66%, rgba(245,245,245,1) 85%, rgba(207,207,207,1) 100%, rgba(254,254,254,1) 100%, rgba(254,254,254,1) 100%);;
+}
+
 a {
-  color: #61dafb;
+  color: #CFD9E7;
+  text-decoration: none;
 }
 
 ul {
@@ -43,7 +65,7 @@ ul {
    padding-left:0px !important;
 }
 
-h2 {
+.linktree-heading {
   margin-top: 0.2em;
   margin-bottom: 0.2em;
 }
