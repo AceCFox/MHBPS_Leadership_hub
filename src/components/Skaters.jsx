@@ -15,7 +15,7 @@ function Skaters() {
             </li>
             <li>
                 <a href="https://forms.gle/RnCoCBrX3ASfiXHt8">
-                Record Absenses
+                Record Absences
                 </a>
             </li>
             <li>
